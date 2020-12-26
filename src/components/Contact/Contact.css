@@ -1,0 +1,11 @@
+.MuiPaper-root.MuiDialog-paper {
+  padding: 2rem 4rem;
+  font-family: "Dosis", sans-serif;
+  background-color: rgb(40, 38, 49);
+  color: #bbb;
+}
+
+.close-button {
+  color: #bbb;
+  font-size: 1.5rem;
+}
