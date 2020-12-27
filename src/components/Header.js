@@ -5,7 +5,7 @@ import styled, { keyframes } from "styled-components";
 
 const Header = () => {
   return (
-    <div style={styles.header}>
+    <div style={styles.header} id="header">
       <video
         style={styles.videoBcg}
         preload="auto"

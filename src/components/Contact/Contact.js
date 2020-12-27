@@ -6,7 +6,7 @@ import Dialog from "@material-ui/core/Dialog";
 import "./Contact.css";
 
 const Contact = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -23,7 +23,7 @@ const Contact = () => {
       </ContactB>
 
       <div>
-        <Dialog open={open} onClose={handleClose}>
+        <Dialog open={open} onClose={handleClose} transitionDuration={500}>
           <ContactHead>
             <span style={styles.span}>Contact to Ken</span>
             <button style={styles.button} onClick={handleClose}>
@@ -79,15 +79,12 @@ const styles = {
     fontSize: "1.5rem",
   },
   form: {
-    marginTop: 16,
+    // marginTop: 16,
+    padding: 16,
+    paddingTop: 0,
   },
   labels: {
     display: "grid",
-    // gridTemplateColumns: "1fr 1fr",
-    // gridColumnGap: "2rem",
-  },
-  msg: {
-    // gridColumn: "1 / -1",
   },
 };
 
@@ -96,6 +93,7 @@ const InputSubmit = styled.input`
   background: transparent;
   border: solid #bbb 1px;
   border-radius: 5px;
+  margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   color: #bbb;
   cursor: pointer;
@@ -147,13 +145,13 @@ const TextArea = styled.textarea`
 const Label = styled.label`
   display: grid;
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 const ContactHead = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  padding: 1rem;
 `;
 
 const ContactB = styled.div`

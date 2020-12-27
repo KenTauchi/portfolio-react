@@ -1,0 +1,6 @@
+.works {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "Fjalla One", sans-serif;
+}

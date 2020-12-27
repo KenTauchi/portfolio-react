@@ -1,0 +1,18 @@
+.abouts {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: "Fjalla One", sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.abouts h3 {
+  letter-spacing: 1px;
+}
+.abouts p {
+  font-family: "Rubik", sans-serif;
+  margin: 1rem 0;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}

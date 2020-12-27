@@ -1,0 +1,7 @@
+.tech-mobile {
+  margin: 3rem 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "Fjalla One", sans-serif;
+}
