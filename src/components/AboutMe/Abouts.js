@@ -27,7 +27,10 @@ const Images = Styled.div`
     position: relative;
         width: 100%;
         height: 80vw;
-        /* order: 1; */
+        @media (min-width: 768px){
+            width: 60vw;
+            height: 60vw;
+        }
     `;
 const Image1 = Styled.div`
     width: 100%;

@@ -155,7 +155,9 @@ const ContactHead = styled.div`
 `;
 
 const ContactB = styled.div`
-    margin: 0 30vw;
+    margin: 0 auto;
+    width: 25vw;
+    max-width: 110px;
     text-align: center;
     background-color: rgb(255, 94, 0);
     padding: 0.5rem 2rem;
@@ -163,6 +165,12 @@ const ContactB = styled.div`
     border: none;
     z-index: 3;
     color: black;
+    @media (min-width: 768px){
+        font-size: 1.2rem;
+        padding: .7rem 2.2rem;
+        width: 15vw;
+        max-width: 260px
+    }
 
     &:focus {
       outline: 0;

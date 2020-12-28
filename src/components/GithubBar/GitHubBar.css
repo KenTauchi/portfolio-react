@@ -1,0 +1,43 @@
+.github-calendar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .github-calendar {
+    display: block;
+    margin: 6rem 0;
+    font-family: "Fjalla One", sans-serif;
+  }
+  .github-calendar h2 {
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-size: 1.8rem;
+  }
+
+  .github-calendar .calendar {
+    max-width: 800px;
+    height: auto;
+    border: none;
+  }
+
+  .calender .position-relative {
+    background-color: black;
+  }
+
+  .position-relative .text-gray {
+    color: rgb(190, 190, 190);
+  }
+
+  .text-gray a {
+    color: cornflowerblue;
+  }
+
+  .github-calendar .table-column {
+    background: black;
+    border: none;
+  }
+  .table-column span {
+    color: rgb(190, 190, 190);
+    font-family: "Rubik", sans-serif;
+  }
+}

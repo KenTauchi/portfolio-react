@@ -1,5 +1,4 @@
 .navbar {
-  /* height: 80px; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -73,4 +72,20 @@
 
 span {
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bars {
+    font-size: 3rem;
+  }
+  .nav-menu-items {
+    padding: 0;
+  }
+  .nav-text {
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+  .nav-text a {
+    font-size: 27px;
+  }
 }

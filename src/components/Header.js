@@ -5,7 +5,7 @@ import styled, { keyframes } from "styled-components";
 
 const Header = () => {
   return (
-    <div style={styles.header} id="header">
+    <HeaderWrapper id="header">
       <video
         style={styles.videoBcg}
         preload="auto"
@@ -36,19 +36,13 @@ const Header = () => {
       </Logo>
 
       <div style={styles.videoCover}></div>
-    </div>
+    </HeaderWrapper>
   );
 };
 
 const styles = {
-  header: {
-    position: "relative",
-    height: "40vh",
-  },
-
   videoBcg: {
     position: "absolute",
-
     top: 0,
     left: 0,
     width: "100%",
@@ -80,9 +74,18 @@ const zoomIn = keyframes`
     }
 `;
 
+const HeaderWrapper = styled.div`
+  position: relative;
+  height: 40vh;
+  @media (min-width: 768px) {
+    height: 55vh;
+  }
+`;
+
 const Logo = styled.div`
   z-index: 1;
   width: 60vw;
+  max-width: 260px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -90,6 +93,10 @@ const Logo = styled.div`
   webkittransform: translate(-50%, -50%);
   mstransform: translate(-50%, -50%);
   animation: ${zoomIn} 2s linear;
+  @media (min-width: 768px) {
+    width: 45vw;
+    max-width: 365px;
+  }
 `;
 
 export default Header;

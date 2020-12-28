@@ -6,10 +6,11 @@ import {
   faGithub,
   faFacebookF,
 } from "@fortawesome/free-brands-svg-icons";
+import styled from "styled-components";
 
 const Footer = () => {
   return (
-    <div className="footer" style={styles.footer}>
+    <FooterWrapper style={styles.footer}>
       <div className="footer-icons" style={styles.icons}>
         <a href="https://www.linkedin.com/in/kentauchi/">
           <FontAwesomeIcon icon={faLinkedinIn} style={styles.icon} />
@@ -24,14 +25,18 @@ const Footer = () => {
       <p style={styles.copyRight}>
         &copy; 2021 Ken Tauchi - All Rights Reserved.
       </p>
-    </div>
+    </FooterWrapper>
   );
 };
 
+const FooterWrapper = styled.div`
+  padding: 0 2rem 2rem 2rem;
+  @media (min-width: 768px) {
+    margin: 6rem 0;
+  }
+`;
+
 const styles = {
-  footer: {
-    padding: "0 2rem 2rem 2rem",
-  },
   icons: {
     display: "flex",
     justifyContent: "center",

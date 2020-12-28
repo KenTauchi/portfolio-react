@@ -1,13 +1,21 @@
 import { styled } from "@material-ui/core";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Styled, { keyframes, Keyframes } from "styled-components";
 
 const WelcomeText = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const handleResize = () => setWindowWidth(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  }, []);
   return (
     <div>
       <VisuallyHidden>Ken Tauchi Portfolio Site</VisuallyHidden>
       <Animation>
-        <AnimationText>Welcome to my portfolio site.</AnimationText>
+        <AnimationText width={windowWidth}>
+          Welcome to my portfolio site.
+        </AnimationText>
       </Animation>
     </div>
   );
@@ -36,6 +44,16 @@ const animatedText = keyframes`
         to {
           width: 280px;
         }
+     
+  `;
+const animatedTextTablet = keyframes`
+  from {
+          width: 0;
+        }
+        to {
+          width: 380px;
+        }
+     
   `;
 
 const animatedCursor = keyframes`
@@ -54,7 +72,13 @@ const AnimationText = Styled.p`
         white-space: nowrap;
         overflow: hidden;
         margin: 0 auto;
-        animation: ${animatedText} 3s steps(27, end) 2s 1 normal both, ${animatedCursor} 800ms steps(29, end) infinite;
+        animation: ${({ width }) =>
+          width < 767 ? animatedText : animatedTextTablet}
+         3s steps(27, end) 2s 1 normal both, ${animatedCursor} 800ms steps(29, end) infinite;
+        @media (min-width:768px){
+
+            font-size: 2rem;
+        }
   `;
 
 export default WelcomeText;

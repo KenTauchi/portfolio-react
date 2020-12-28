@@ -4,9 +4,11 @@ import HeaderNav from "./components/Navbar/HeaderNav";
 import Header from "./components/Header";
 import Contact from "./components/Contact/Contact";
 import WelcomeText from "./components/WelcomeText";
+import GitHubBar from "./components/GithubBar/GitHubBar";
 import Works from "./components/Works/Works";
 import Abouts from "./components/AboutMe/Abouts";
 import TechMobile from "./components/Tech/TechMobile";
+import TechDeskTop from "./components/Tech/TechDeskTop";
 
 import Footer from "./components/Footer";
 
@@ -17,9 +19,12 @@ function App() {
       <Header />
       <Contact />
       <WelcomeText />
+      <GitHubBar />
       <Works />
       <Abouts />
-      <TechMobile />
+      {/* <TechMobile /> */}
+      <TechDeskTop />
+
       <Footer />
     </div>
   );
