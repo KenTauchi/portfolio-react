@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="contact">
       <ContactB className="contact-head" onClick={handleClickOpen}>
         Contact Me
       </ContactB>
@@ -25,17 +25,17 @@ const Contact = () => {
       <div>
         <Dialog open={open} onClose={handleClose} transitionDuration={500}>
           <ContactHead>
-            <span style={styles.span}>Contact to Ken</span>
-            <button style={styles.button} onClick={handleClose}>
-              <div className="close-button">&times;</div>
+            <span className="contact-span">Contact to Ken</span>
+            <button onClick={handleClose} className="contact-close-contact">
+              <div className="contact-close-button">&times;</div>
             </button>
           </ContactHead>
           <form
             action="https://formspree.io/xwkqrvkz"
             method="POST"
-            style={styles.form}
+            className="contact-form"
           >
-            <div style={styles.labels}>
+            <div className="contact-labels">
               <Label>
                 Name:
                 <InputText type="text" name="name" />
@@ -46,9 +46,9 @@ const Contact = () => {
                 <InputText type="text" name="_replyto" />
               </Label>
 
-              <Label style={styles.msg}>
+              <Label className="contact-msg">
                 Message:
-                <TextArea name="message" rows="1" cols="50"></TextArea>
+                <TextArea name="message" rows="2" cols="50"></TextArea>
               </Label>
             </div>
 
@@ -58,34 +58,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
-
-const styles = {
-  span: {
-    fontSize: "1.5rem",
-    fontWeight: 600,
-  },
-  button: {
-    background: "none",
-    border: "none",
-    fontSize: "1.5rem",
-    cursor: "pointer",
-    ":focus": {
-      outline: 0,
-    },
-  },
-  closeContact: {
-    color: "#bbb",
-    fontSize: "1.5rem",
-  },
-  form: {
-    // marginTop: 16,
-    padding: 16,
-    paddingTop: 0,
-  },
-  labels: {
-    display: "grid",
-  },
 };
 
 const InputSubmit = styled.input`
@@ -107,6 +79,9 @@ const InputSubmit = styled.input`
   &:focus {
     outline: 0;
   }
+  @media (min-width: 1024px) {
+    font-size: 1.3rem;
+  }
 `;
 
 const InputText = styled.input`
@@ -123,6 +98,9 @@ const InputText = styled.input`
   }
   &:focus {
     outline: 0;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.3rem;
   }
 `;
 
@@ -141,17 +119,26 @@ const TextArea = styled.textarea`
   &:focus {
     outline: 0;
   }
+  @media (min-width: 1024px) {
+    font-size: 1.3rem;
+  }
 `;
 const Label = styled.label`
   display: grid;
   text-align: left;
   margin-bottom: 1rem;
+  @media (min-width: 1024px) {
+    font-size: 1.3rem;
+  }
 `;
 const ContactHead = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  @media (min-width: 1024px) {
+    padding-left: 0rem;
+  }
 `;
 
 const ContactB = styled.div`

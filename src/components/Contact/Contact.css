@@ -5,7 +5,58 @@
   color: #bbb;
 }
 
-.close-button {
+.contct-close-button {
   color: #bbb;
   font-size: 1.5rem;
+}
+
+.contact-span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.contact-close-contact {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.contact-close-contact:focus {
+  outline: 0;
+}
+.contact-close-contact {
+  color: #bbb;
+  font-size: 1.5rem;
+}
+.contact-form {
+  padding: 16;
+  padding-top: 0;
+}
+.contact-labels {
+  display: grid;
+}
+
+@media screen and (min-width: 1024px) {
+  .MuiPaper-root.MuiDialog-paper {
+    width: 80vw;
+    height: 40vw;
+    margin: 0;
+  }
+  .contct-close-button {
+    font-size: 2rem;
+  }
+
+  .contact-span {
+    font-size: 2rem;
+  }
+
+  .contact-close-contact {
+    font-size: 2rem;
+  }
+  .contact-form {
+    padding: 16;
+    padding-top: 0;
+  }
+  .contact-labels {
+    display: grid;
+  }
 }

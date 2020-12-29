@@ -70,6 +70,9 @@ const MoreInfo = Styled.a`
   text-align: center;
   margin-top: 3rem;
   text-decoration: underline;
+  @media (min-width: 768px){
+      font-size: 1.5rem;
+  }
   `;
 
 export default Work;

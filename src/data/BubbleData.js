@@ -7,25 +7,11 @@ import mysql from "../assets/icons/mysql.png";
 import nodeJS from "../assets/icons/node.png";
 import php from "../assets/icons/php.png";
 import react from "../assets/icons/react.png";
-import reactNative from "../assets/icons/react-native.svg";
+import reactNative from "../assets/icons/react-native.png";
 import sass from "../assets/icons/sass.png";
 import wordpress from "../assets/icons/wordpress.png";
 
 export const BubbleData = [
-  {
-    id: "HTML",
-    name: "HTML",
-    point: 60,
-    type: "Front End",
-    image_path: html,
-  },
-  {
-    id: "CSS",
-    name: "CSS",
-    point: 70,
-    type: "Front End",
-    image_path: css,
-  },
   {
     id: "Firebase",
     name: "Firebase",
@@ -34,16 +20,31 @@ export const BubbleData = [
     image_path: firebase,
   },
   {
+    id: "CSS",
+    name: "CSS",
+    point: 60,
+    type: "Front End",
+    image_path: css,
+  },
+  {
+    id: "HTML",
+    name: "HTML",
+    point: 50,
+    type: "Front End",
+    image_path: html,
+  },
+
+  {
     id: "JavaScript",
     name: "JavaScript",
-    point: 80,
+    point: 65,
     type: "Front End",
     image_path: javascript,
   },
   {
-    id: "WordPress Theme Creation",
-    name: "WordPress Theme Creation",
-    point: 80,
+    id: "WordPress",
+    name: "WordPress",
+    point: 65,
     type: "Front End",
     image_path: wordpress,
   },
@@ -64,14 +65,14 @@ export const BubbleData = [
   {
     id: "SASS",
     name: "SASS",
-    point: 70,
+    point: 60,
     type: "Front End",
     image_path: sass,
   },
   {
     id: "Node.js",
     name: "Node.js",
-    point: 60,
+    point: 50,
     type: "Back End",
     image_path: nodeJS,
   },
@@ -81,6 +82,13 @@ export const BubbleData = [
     point: 80,
     type: "Front End",
     image_path: react,
+  },
+  {
+    id: "React Native",
+    name: "React Native",
+    point: 70,
+    type: "Front End",
+    image_path: reactNative,
   },
   {
     id: "MySQL",

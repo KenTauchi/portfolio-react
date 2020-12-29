@@ -44,9 +44,9 @@ const Bubble = (props) => {
     if (wSize < 850) {
       radiusScale.range([20, currentWidth / 9]);
     } else if (wSize >= 850 && wSize < 1200) {
-      radiusScale.range([25, currentWidth / 10]);
+      radiusScale.range([25, currentWidth / 9]);
     } else if (wSize >= 1200) {
-      radiusScale.range([30, currentWidth / 13]);
+      radiusScale.range([30, currentWidth / 11]);
     }
     const forceXSeparate = d3
       .forceX((d) => {
@@ -84,8 +84,17 @@ const Bubble = (props) => {
       .attr("fill", (d) => {
         return `url(#${d.name.toLowerCase().replace(/ /g, "-")})`;
       })
-      .on("click", (d) => {
-        console.log(d);
+      .attr("name", (d) => {
+        return d.name;
+      })
+      .on("mouseover", (d) => {
+        let name = d.target.getAttribute("name");
+
+        document.getElementById("skill-name").innerText = "";
+        document.getElementById("skill-name").innerText = name;
+      })
+      .on("mouseout", (d) => {
+        document.getElementById("skill-name").innerText = "Hover Icons";
       });
 
     d3.select("#combine").on("click", () => {

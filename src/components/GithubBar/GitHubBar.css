@@ -15,7 +15,8 @@
   }
 
   .github-calendar .calendar {
-    max-width: 800px;
+    width: 90vw;
+    max-width: 1300px;
     height: auto;
     border: none;
   }
@@ -39,5 +40,12 @@
   .table-column span {
     color: rgb(190, 190, 190);
     font-family: "Rubik", sans-serif;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contrib-footer {
+    margin-top: 2.34vw;
+    margin-left: 2.34vw;
   }
 }

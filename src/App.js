@@ -10,7 +10,7 @@ import Abouts from "./components/AboutMe/Abouts";
 import TechMobile from "./components/Tech/TechMobile";
 import TechDeskTop from "./components/Tech/TechDeskTop";
 
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

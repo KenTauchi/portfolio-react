@@ -7,7 +7,7 @@ import mysql from "../assets/icons/mysql.png";
 import node from "../assets/icons/node.png";
 import php from "../assets/icons/php.png";
 import react from "../assets/icons/react.png";
-import reactNative from "../assets/icons/react-native.svg";
+import reactNative from "../assets/icons/react-native.png";
 import sass from "../assets/icons/sass.png";
 import wordpress from "../assets/icons/wordpress.png";
 
