@@ -26,10 +26,17 @@ function HeaderNav() {
           {MenuData.map((item, index) => {
             return (
               <li key={index} className={item.cName}>
-                <a href={item.link}>
-                  {item.icon}
-                  <span>{item.title}</span>
-                </a>
+                {item.tab ? (
+                  <a href={item.link} target="_blank">
+                    {item.icon}
+                    <span>{item.title}</span>
+                  </a>
+                ) : (
+                  <a href={item.link}>
+                    {item.icon}
+                    <span>{item.title}</span>
+                  </a>
+                )}
               </li>
             );
           })}

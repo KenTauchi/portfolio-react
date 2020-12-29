@@ -53,9 +53,10 @@
 @media screen and (min-width: 1200px) {
   .github-calendar .calendar {
     width: 80vw;
+    max-width: 1000px;
   }
   .contrib-footer {
-    margin-top: 6vw;
-    max-width: 1300px;
+    margin-top: 3vw;
+    max-width: 950px;
   }
 }

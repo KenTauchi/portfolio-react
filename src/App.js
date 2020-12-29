@@ -22,7 +22,7 @@ function App() {
       <GitHubBar />
       <Works />
       <Abouts />
-      {/* <TechMobile /> */}
+      <TechMobile />
       <TechDeskTop />
 
       <Footer />

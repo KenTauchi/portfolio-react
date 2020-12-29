@@ -60,3 +60,29 @@
     display: grid;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .MuiPaper-root.MuiDialog-paper {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 0;
+  }
+  .contct-close-button {
+    font-size: 2rem;
+  }
+
+  .contact-span {
+    font-size: 2rem;
+  }
+
+  .contact-close-contact {
+    font-size: 2rem;
+  }
+  .contact-form {
+    padding: 16;
+    padding-top: 0;
+  }
+  .contact-labels {
+    display: grid;
+  }
+}

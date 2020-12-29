@@ -46,7 +46,7 @@ const Bubble = (props) => {
     } else if (wSize >= 850 && wSize < 1200) {
       radiusScale.range([25, currentWidth / 9]);
     } else if (wSize >= 1200) {
-      radiusScale.range([30, currentWidth / 11]);
+      radiusScale.range([25, currentWidth / 15]);
     }
     const forceXSeparate = d3
       .forceX((d) => {

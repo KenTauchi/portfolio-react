@@ -152,11 +152,15 @@ const ContactB = styled.div`
     border: none;
     z-index: 3;
     color: black;
+    font-family: "Dosis", sans-serif;
     @media (min-width: 768px){
         font-size: 1.2rem;
         padding: .7rem 2.2rem;
         width: 15vw;
         max-width: 260px
+    }
+    @media (min-width: 1200px){
+        max-width: 100px;
     }
 
     &:focus {

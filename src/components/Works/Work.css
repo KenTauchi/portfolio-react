@@ -26,7 +26,7 @@
   position: absolute;
   top: 0;
   right: 1rem;
-  width: 50%;
+  width: 60%;
   padding: 0 0.5rem;
   background-color: #ff7730d9;
 }
@@ -99,6 +99,6 @@
   .MuiDialog-root[value="work"] .MuiPaper-root.MuiDialog-paper {
     height: 40vw;
     max-width: 600px;
-    max-height: 500px;
+    max-height: 450px;
   }
 }
