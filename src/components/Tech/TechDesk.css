@@ -56,6 +56,17 @@
   font-size: 2rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .tech-desk #skill-name {
+    margin-top: -6rem;
+    margin-bottom: 10rem;
+    font-size: 3rem;
+  }
+  #techdesk {
+    margin-top: -7rem;
+  }
+}
+
 @keyframes static-flicker {
   2% {
     border: 3px solid rgb(0, 40, 70);

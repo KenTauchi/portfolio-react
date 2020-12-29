@@ -1,5 +1,5 @@
 import nearestImg from "../assets/nearest.png";
-import naniwaismImg from "../assets/naniwaism.png";
+import naniwaismImg from "../assets/naniwaism.jpg";
 import savyImg from "../assets/savy.jpg";
 import langaraImg from "../assets/langara.jpg";
 

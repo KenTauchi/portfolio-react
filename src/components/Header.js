@@ -76,9 +76,13 @@ const zoomIn = keyframes`
 
 const HeaderWrapper = styled.div`
   position: relative;
-  height: 40vh;
+  height: 80vw;
   @media (min-width: 768px) {
-    height: 55vh;
+    height: 80vw;
+  }
+  @media (min-width: 1024px) {
+    height: 50vw;
+    max-height: 600px;
   }
 `;
 

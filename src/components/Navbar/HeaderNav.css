@@ -1,7 +1,8 @@
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  position: absolute;
+  z-index: 2;
+  top: 1.5rem;
+  right: 0.5rem;
 }
 
 .menu-bars {
@@ -82,7 +83,7 @@
     padding: 0;
   }
   .nav-text {
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding: 1rem;
   }
   .nav-text a {

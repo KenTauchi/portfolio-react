@@ -95,3 +95,10 @@
     font-size: 1.3rem;
   }
 }
+@media screen and (min-width: 1200px) {
+  .MuiDialog-root[value="work"] .MuiPaper-root.MuiDialog-paper {
+    height: 40vw;
+    max-width: 600px;
+    max-height: 500px;
+  }
+}

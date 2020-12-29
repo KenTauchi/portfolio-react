@@ -31,6 +31,12 @@ const Images = Styled.div`
             width: 60vw;
             height: 60vw;
         }
+        @media (min-width: 1200px){
+            width: 50vw;
+            height: 50vw;
+            max-width: 600px;
+            max-height: 500px;
+        }
     `;
 const Image1 = Styled.div`
     width: 100%;
