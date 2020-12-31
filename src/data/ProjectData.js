@@ -3,6 +3,7 @@ import naniwaismImg from "../assets/naniwaism.jpg";
 import savyImg from "../assets/savy.jpg";
 import langaraImg from "../assets/langara.jpg";
 import portfolioImg from "../assets/portfolio.jpg";
+import quizapp from "../assets/quizapp.jpg";
 
 export const ProjectData = [
   {
@@ -49,5 +50,14 @@ export const ProjectData = [
     link: "https://gifted-mcclintock-509721.netlify.app/",
     img: portfolioImg,
     bcgColor: "linear-gradient(90deg, #808B96, #2C3E50)",
+  },
+  {
+    category: "React Quiz App",
+    desc:
+      "The quiz app has several options for the difficulty and number of questios to choose. The background image changes depending on the season you play the app in.",
+    tech: ["React", "React Hooks", "TypeScript", "CSS"],
+    link: "https://kentauchi.github.io/typescript-react-quizapp/",
+    img: quizapp,
+    bcgColor: "linear-gradient(90deg, #808B96,  #2E86C1)",
   },
 ];
