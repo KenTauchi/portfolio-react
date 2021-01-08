@@ -82,3 +82,14 @@ img {
     font-size: 1.4rem;
   }
 }
+@media screen and (min-width: 1500px) {
+  .contact,
+  .github-calender,
+  .works,
+  .abouts,
+  .tech-desk,
+  footer {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
