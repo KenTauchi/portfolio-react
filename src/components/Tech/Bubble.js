@@ -5,7 +5,7 @@ import "./Bubble.css";
 
 const Bubble = (props) => {
   let height = props.height;
-  console.log(props.rendered, props.height);
+  //   console.log(props.rendered, props.height);
 
   const svg = d3.select("#techdesk").append("svg").attr("height", height);
 
