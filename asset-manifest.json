@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff3e0c69.chunk.css",
+    "main.js": "/static/js/main.c8166770.chunk.js",
+    "main.js.map": "/static/js/main.c8166770.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ced13294.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ced13294.js.map",
+    "static/js/2.eeb5796d.chunk.js": "/static/js/2.eeb5796d.chunk.js",
+    "static/js/2.eeb5796d.chunk.js.map": "/static/js/2.eeb5796d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ff3e0c69.chunk.css.map": "/static/css/main.ff3e0c69.chunk.css.map",
+    "static/js/2.eeb5796d.chunk.js.LICENSE.txt": "/static/js/2.eeb5796d.chunk.js.LICENSE.txt",
+    "static/media/css.d9fc7ed4.png": "/static/media/css.d9fc7ed4.png",
+    "static/media/firebase.18e8cd69.png": "/static/media/firebase.18e8cd69.png",
+    "static/media/football.ff1db0ed.jpg": "/static/media/football.ff1db0ed.jpg",
+    "static/media/html.c77fed67.png": "/static/media/html.c77fed67.png",
+    "static/media/javascript.a2a16f08.png": "/static/media/javascript.a2a16f08.png",
+    "static/media/jquery.eb105fbb.png": "/static/media/jquery.eb105fbb.png",
+    "static/media/langara.23d21f35.jpg": "/static/media/langara.23d21f35.jpg",
+    "static/media/logo.454dd308.svg": "/static/media/logo.454dd308.svg",
+    "static/media/mysql.f251faee.png": "/static/media/mysql.f251faee.png",
+    "static/media/naniwaism.17458bf3.jpg": "/static/media/naniwaism.17458bf3.jpg",
+    "static/media/nearest.fe7bf65f.png": "/static/media/nearest.fe7bf65f.png",
+    "static/media/node.7b0f4700.png": "/static/media/node.7b0f4700.png",
+    "static/media/php.2669e441.png": "/static/media/php.2669e441.png",
+    "static/media/portfolio.192c4c7b.jpg": "/static/media/portfolio.192c4c7b.jpg",
+    "static/media/profpic.5634357a.jpg": "/static/media/profpic.5634357a.jpg",
+    "static/media/quizapp.80201eac.jpg": "/static/media/quizapp.80201eac.jpg",
+    "static/media/react-native.13beb790.png": "/static/media/react-native.13beb790.png",
+    "static/media/react.ec95fff2.png": "/static/media/react.ec95fff2.png",
+    "static/media/sass.051888ab.png": "/static/media/sass.051888ab.png",
+    "static/media/savy.ff7e012e.jpg": "/static/media/savy.ff7e012e.jpg",
+    "static/media/video.09592ebf.mp4": "/static/media/video.09592ebf.mp4",
+    "static/media/wordpress.865ea2b5.png": "/static/media/wordpress.865ea2b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ced13294.js",
+    "static/js/2.eeb5796d.chunk.js",
+    "static/css/main.ff3e0c69.chunk.css",
+    "static/js/main.c8166770.chunk.js"
+  ]
+}
