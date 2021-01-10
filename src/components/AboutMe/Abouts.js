@@ -16,9 +16,16 @@ const Abouts = () => {
         <Image1 className="image1"></Image1>
         <Image2 className="image2"></Image2>
       </Images>
-      {MyData.map((data, index) => (
-        <About key={index} title={data.title} desc={data.desc} />
-      ))}
+      <div className="descs">
+        {MyData.map((data, index) => (
+          <About
+            key={index}
+            title={data.title}
+            desc={data.desc}
+            index={index}
+          />
+        ))}
+      </div>
     </div>
   );
 };
