@@ -32,6 +32,7 @@
   .descs {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem 4rem;
   }
   .about-me-desc2 {
     grid-column: 1 / -1;
@@ -43,5 +44,9 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .descs {
+    gap: 1rem 8rem;
   }
 }
