@@ -20,7 +20,7 @@ const TechDeskTop = () => {
 
   return (
     <div className="tech-desk" id="skills">
-      <h2>Skills</h2>
+      <h2>Tech Skills</h2>
       <div className="skill-contents">
         <div className="buttons">
           <div id="combine" className="button">

@@ -1,6 +1,6 @@
 import React from "react";
 import video from "../assets/video.mp4";
-import logo from "../assets/logo.svg";
+import logo from "../assets/KenLogo.svg";
 import styled, { keyframes } from "styled-components";
 
 const Header = () => {
@@ -96,7 +96,7 @@ const Logo = styled.div`
   transform: translate(-50%, -50%);
   webkittransform: translate(-50%, -50%);
   mstransform: translate(-50%, -50%);
-  animation: ${zoomIn} 2s linear;
+  animation: ${zoomIn} 3.5s linear;
   @media (min-width: 768px) {
     width: 45vw;
     max-width: 365px;

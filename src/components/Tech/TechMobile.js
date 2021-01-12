@@ -6,7 +6,7 @@ import "./TechMobile.css";
 const TechMobile = () => {
   return (
     <div className="tech-mobile" id="skills">
-      <h2>Skills</h2>
+      <h2>Tech Skills</h2>
       <div className="tech-mobile" style={styles.images}>
         {TechData.map((skill, index) => (
           <div key={index}>
