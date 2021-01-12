@@ -9,12 +9,13 @@
 
 .abouts h3 {
   letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
 }
 .abouts p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Dosis", sans-serif;
   margin: 1rem 0;
   letter-spacing: 1px;
-  line-height: 1.4;
+  /* line-height: 1.4; */
 }
 
 @media screen and (min-width: 768px) {
