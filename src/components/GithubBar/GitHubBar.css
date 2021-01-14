@@ -6,7 +6,8 @@
   .github-calendar {
     display: block;
     margin: 6rem 0;
-    font-family: "Fjalla One", sans-serif;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
   }
   .github-calendar h2 {
     text-align: center;
@@ -39,7 +40,8 @@
   }
   .table-column span {
     color: rgb(190, 190, 190);
-    font-family: "Rubik", sans-serif;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
   }
 }
 

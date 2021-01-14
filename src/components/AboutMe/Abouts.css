@@ -1,7 +1,8 @@
 .abouts {
   margin-left: 2rem;
   margin-right: 2rem;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -10,16 +11,14 @@
 .abouts h3 {
   letter-spacing: 1px;
   font-family: "Dosis", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
 }
 .abouts p {
   font-family: "Dosis", sans-serif;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   letter-spacing: 1px;
   line-height: 1.4;
-}
-
-.about-me-desc {
-  margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
