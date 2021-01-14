@@ -88,7 +88,7 @@ const HeaderWrapper = styled.div`
 
 const Logo = styled.div`
   z-index: 1;
-  width: 60vw;
+  width: 50vw;
   max-width: 260px;
   position: absolute;
   top: 50%;
@@ -96,7 +96,7 @@ const Logo = styled.div`
   transform: translate(-50%, -50%);
   webkittransform: translate(-50%, -50%);
   mstransform: translate(-50%, -50%);
-  animation: ${zoomIn} 3.5s linear;
+  animation: ${zoomIn} 2s linear;
   @media (min-width: 768px) {
     width: 45vw;
     max-width: 365px;

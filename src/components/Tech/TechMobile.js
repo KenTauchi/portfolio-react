@@ -25,11 +25,11 @@ const styles = {
   text: {
     display: "block",
     textAlign: "center",
-    marginTop: 16,
+    marginTop: 32,
     marginLeft: 0,
   },
   box: {
-    height: "20vw",
+    height: "15vw",
     display: "flex",
     alignItems: "center",
   },
