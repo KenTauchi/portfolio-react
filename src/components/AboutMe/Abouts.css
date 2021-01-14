@@ -10,12 +10,12 @@
 
 .abouts h3 {
   letter-spacing: 1px;
-  font-family: "Dosis", sans-serif;
+
   margin-top: 3rem;
   margin-bottom: 0rem;
 }
 .abouts p {
-  font-family: "Dosis", sans-serif;
+  font-weight: normal;
   margin: 0.5rem 0;
   letter-spacing: 1px;
   line-height: 1.4;

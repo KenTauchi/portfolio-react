@@ -1,3 +1,4 @@
+import { getDefaultNormalizer } from "@testing-library/react";
 import React from "react";
 import { TechData } from "../../data/TechData";
 
@@ -27,6 +28,7 @@ const styles = {
     textAlign: "center",
     marginTop: 32,
     marginLeft: 0,
+    fontWeight: "normal",
   },
   box: {
     height: "15vw",
