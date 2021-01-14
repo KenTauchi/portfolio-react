@@ -70,7 +70,7 @@ const zoomIn = keyframes`
     }
 
     100% {
-      width: 60vw;
+      width: 50vw;
     }
 `;
 

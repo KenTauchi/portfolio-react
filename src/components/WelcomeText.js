@@ -42,7 +42,7 @@ const animatedText = keyframes`
           width: 0;
         }
         to {
-          width: 290px;
+          width: 280px;
         }
      
   `;
@@ -67,7 +67,7 @@ const animatedCursor = keyframes`
 
 const AnimationText = Styled.p`
   font-family: "Dosis", sans-serif;
-  font-weight: bold;
+  
         font-size: 1.5rem;
         border-right: solid 3px rgba(0, 255, 0, 0.75);
         white-space: nowrap;

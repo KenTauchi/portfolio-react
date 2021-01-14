@@ -26,9 +26,11 @@
   position: absolute;
   top: 0;
   right: 1rem;
-  width: 60%;
+  width: 70%;
   padding: 0 0.5rem;
-  background-color: #ff7730d9;
+  background-color: #d86121d9;
+  font-size: 1.3rem;
+  padding: 8px 0.3rem;
 }
 
 .cards-back {
