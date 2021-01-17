@@ -38,7 +38,7 @@ const Bubble = (props) => {
 
     let currentWidth = parseInt(d3.select("#techdesk").style("width"), 10);
 
-    let wSize = window.innerWidth;
+    let wSize = window.innerWidth > 1500 ? 1500 : window.innerWidth;
     svg.attr("width", currentWidth);
 
     if (wSize < 850) {
