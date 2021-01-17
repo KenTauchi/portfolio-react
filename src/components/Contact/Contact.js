@@ -153,6 +153,9 @@ const ContactB = styled.div`
     z-index: 3;
     color: black;
     font-family: "Dosis", sans-serif;
+    &:hover {
+        cursor: pointer
+    };
     @media (min-width: 768px){
         font-size: 1.2rem;
         padding: .7rem 2.2rem;
