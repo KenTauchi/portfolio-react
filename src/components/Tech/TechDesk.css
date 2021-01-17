@@ -63,6 +63,10 @@
     margin-bottom: 3rem;
     font-size: 2rem;
   }
+
+  .skill:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 1200px) {

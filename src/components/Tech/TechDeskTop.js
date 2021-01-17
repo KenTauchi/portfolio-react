@@ -27,7 +27,7 @@ const TechDeskTop = () => {
             <span>Combine</span>
           </div>
           <div id="front-back" className="button check">
-            <span>Categorize</span>
+            <span>Front / Back End</span>
           </div>
         </div>
         <span id="skill-name">Hover Icons</span>

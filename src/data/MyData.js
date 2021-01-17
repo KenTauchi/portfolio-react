@@ -1,6 +1,6 @@
 export const MyData = [
   {
-    title: "Ken is ..",
+    title: "Ken is",
     desc:
       "a Frontend developer, currently working for Langara College as a contract in Vancouver, Canada attending the college as a student as well.",
   },
