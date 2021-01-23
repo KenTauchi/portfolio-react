@@ -10,6 +10,7 @@ import react from "../assets/icons/react.png";
 import reactNative from "../assets/icons/react-native.png";
 import sass from "../assets/icons/sass.png";
 import wordpress from "../assets/icons/wordpress.png";
+import aws from "../assets/icons/aws.png";
 
 export const BubbleData = [
   {
@@ -56,13 +57,6 @@ export const BubbleData = [
     image_path: jquery,
   },
   {
-    id: "PHP",
-    name: "PHP",
-    point: 50,
-    type: "Back End",
-    image_path: php,
-  },
-  {
     id: "SASS",
     name: "SASS",
     point: 60,
@@ -96,5 +90,12 @@ export const BubbleData = [
     point: 60,
     type: "Back End",
     image_path: mysql,
+  },
+  {
+    id: "AWS",
+    name: "AWS",
+    point: 60,
+    type: "Back End",
+    image_path: aws,
   },
 ];

@@ -10,6 +10,7 @@ import react from "../assets/icons/react.png";
 import reactNative from "../assets/icons/react-native.png";
 import sass from "../assets/icons/sass.png";
 import wordpress from "../assets/icons/wordpress.png";
+import aws from "../assets/icons/aws.png";
 
 export const TechData = [
   { image: html, name: "HTML" },
@@ -21,7 +22,7 @@ export const TechData = [
   { image: jquery, name: "JQuery" },
   { image: mysql, name: "MySQL" },
   { image: node, name: "Node.js" },
-  { image: php, name: "PHP" },
   { image: firebase, name: "FireBase" },
   { image: wordpress, name: "WordPress" },
+  { image: aws, name: "AWS" },
 ];
