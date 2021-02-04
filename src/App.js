@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Contact />
       <WelcomeText />
-      <GitHubBar />
+      {/* <GitHubBar /> */}
       <Works />
       <Abouts />
       <TechMobile />

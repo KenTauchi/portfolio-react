@@ -1,5 +1,4 @@
 {
-
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +20,7 @@
     "react-d3-library": "^1.1.8",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
+    "react-pdf": "^5.1.0",
     "react-scripts": "4.0.1",
     "react-ts-github-calendar": "^1.0.2",
     "styled-components": "^5.2.1",

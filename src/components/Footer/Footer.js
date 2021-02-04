@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
+
+import resume from "../../assets/resume.pdf";
+import { Document, Page } from "react-pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +13,12 @@ import {
 import styled from "styled-components";
 
 const Footer = () => {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
   return (
     <FooterWrapper className="footer">
       <div className="footer-icons" className="icons">
@@ -23,6 +32,12 @@ const Footer = () => {
           <FontAwesomeIcon icon={faFacebookF} className="icon" />
         </a>
       </div>
+      {/* <Document file="resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>
+        Page {pageNumber} of {numPages}
+      </p> */}
       <p className="copyRight">&copy; 2021 Ken Tauchi - All Rights Reserved.</p>
     </FooterWrapper>
   );
