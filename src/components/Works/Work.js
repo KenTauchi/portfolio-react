@@ -9,7 +9,7 @@ const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
-const Work = ({ category, desc, tech, link, img, bcg }) => {
+const Work = ({ category, desc, tech, link, img, bcg, demo }) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -19,6 +19,8 @@ const Work = ({ category, desc, tech, link, img, bcg }) => {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const marginTop = demo !== null ? "1rem" : "3rem";
 
   return (
     <div className="work">
@@ -48,7 +50,18 @@ const Work = ({ category, desc, tech, link, img, bcg }) => {
               <li key={index}>{skill}</li>
             ))}
           </ul>
-          <MoreInfo href={link}>Official Website</MoreInfo>
+          {demo !== null ? (
+            <DemoInfo href={demo} target="_blank">
+              Play Demo
+            </DemoInfo>
+          ) : null}
+          <MoreInfo
+            style={{ marginTop: marginTop }}
+            href={link}
+            target="_blank"
+          >
+            Official Website
+          </MoreInfo>
         </Container>
       </Dialog>
       <p className="open-card1 detail" onClick={handleClickOpen}>
@@ -68,8 +81,20 @@ const Container = Styled.div`
 const MoreInfo = Styled.a`
   display: block;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
   text-decoration: underline;
+  @media (min-width: 768px){
+      font-size: 1.5rem;
+  }
+  `;
+
+const DemoInfo = Styled.a`
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  color: white;
+  
   @media (min-width: 768px){
       font-size: 1.5rem;
   }

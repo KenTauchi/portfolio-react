@@ -18,6 +18,7 @@ const Works = () => {
             img={work.img}
             bcg={work.bcgColor}
             key={index}
+            demo={work.demoLink}
           />
         ))}
       </div>

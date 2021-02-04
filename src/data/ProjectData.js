@@ -14,6 +14,7 @@ export const ProjectData = [
     link: "https://www.savy-app.ca/",
     img: savyImg,
     bcgColor: "linear-gradient(90deg, #229954, #1D8348)",
+    demoLink: null,
   },
   {
     category: "React Official College Website",
@@ -23,6 +24,7 @@ export const ProjectData = [
     link: "https://langara-app.ca",
     img: langaraImg,
     bcgColor: "linear-gradient(90deg, #D35400, #A04000)",
+    demoLink: null,
   },
   {
     category: "Phonegap Mobile App",
@@ -32,6 +34,7 @@ export const ProjectData = [
     link: "http://nearest.websterinfotech.com/",
     img: nearestImg,
     bcgColor: "linear-gradient(90deg, #6cb0ab, #536293)",
+    demoLink: "https://vimeo.com/507694442",
   },
   {
     category: "Magazine Mockup Website",
@@ -41,6 +44,7 @@ export const ProjectData = [
     link: "https://gifted-mcclintock-509721.netlify.app/",
     img: naniwaismImg,
     bcgColor: "linear-gradient(90deg, #808B96, #2C3E50)",
+    demoLink: null,
   },
   {
     category: "React Portfolio Website",
@@ -50,6 +54,7 @@ export const ProjectData = [
     link: "https://gifted-mcclintock-509721.netlify.app/",
     img: portfolioImg,
     bcgColor: "linear-gradient(90deg, #808B96, #2C3E50)",
+    demoLink: null,
   },
   {
     category: "React Quiz App",
@@ -59,5 +64,6 @@ export const ProjectData = [
     link: "https://kentauchi.github.io/typescript-react-quizapp/",
     img: quizapp,
     bcgColor: "linear-gradient(90deg, #808B96,  #2E86C1)",
+    demoLink: null,
   },
 ];
