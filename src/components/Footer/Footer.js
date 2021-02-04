@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import "./Footer.css";
 
 import resume from "../../assets/resume.pdf";
-import { Document, Page } from "react-pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faLinkedinIn,
   faGithub,
   faFacebookF,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
 const Footer = () => {
@@ -22,22 +23,17 @@ const Footer = () => {
   return (
     <FooterWrapper className="footer">
       <div className="footer-icons" className="icons">
-        <a href="https://www.linkedin.com/in/kentauchi/">
+        <a href="https://www.linkedin.com/in/kentauchi/" target="_blank">
           <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
         </a>
-        <a href="https://github.com/KenTauchi">
+        <a href="https://github.com/KenTauchi" target="_blank">
           <FontAwesomeIcon icon={faGithub} className="icon" />
         </a>
-        <a href="https://www.facebook.com/ken.tauchi">
-          <FontAwesomeIcon icon={faFacebookF} className="icon" />
+        <a href={resume} target="_blank">
+          <FontAwesomeIcon icon={faFile} className="icon" />
         </a>
       </div>
-      {/* <Document file="resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p> */}
+
       <p className="copyRight">&copy; 2021 Ken Tauchi - All Rights Reserved.</p>
     </FooterWrapper>
   );

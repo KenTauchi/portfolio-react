@@ -1,5 +1,6 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
+import resume from "../assets/resume.pdf";
 
 export const MenuData = [
   {
@@ -38,9 +39,9 @@ export const MenuData = [
     tab: true,
   },
   {
-    title: "Facebook",
-    link: "https://www.facebook.com/ken.tauchi",
-    icon: <FaIcons.FaFacebook />,
+    title: "Resume",
+    link: resume,
+    icon: <FaIcons.FaFile />,
     cName: "nav-text",
     tab: true,
   },
