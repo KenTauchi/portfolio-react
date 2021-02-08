@@ -10,7 +10,7 @@ const TechDeskTop = () => {
 
   const updateWidthSize = () => setWidth(window.innerWidth);
 
-  const heightdata = width < 900 ? 400 : width < 1024 ? 500 : 650;
+  const heightdata = width < 900 ? 450 : width < 1024 ? 550 : 650;
 
   useEffect(() => {
     setRendered(true);
