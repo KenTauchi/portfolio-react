@@ -18,8 +18,8 @@ function App() {
       <HeaderNav />
       <Header />
       <Contact />
-      <WelcomeText />
-      {/* <GitHubBar /> */}
+      {/* <WelcomeText /> */}
+      <GitHubBar />
       <Works />
       <Abouts />
       <TechMobile />

@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^12.6.0",
     "d3": "^6.3.1",
     "github-alike-calendar": "0.0.4",
-    "github-calendar": "^2.2.6",
+    "github-calendar": "^2.2.7",
     "react": "^17.0.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-animated-css": "^1.2.1",
