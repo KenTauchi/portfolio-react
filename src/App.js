@@ -1,4 +1,6 @@
 import "./App.css";
+import MetaTags from "react-meta-tags";
+import logo from "./assets/logo2.svg";
 
 import HeaderNav from "./components/Navbar/HeaderNav";
 import Header from "./components/Header";
@@ -15,6 +17,19 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div style={styles.bcg}>
+      <MetaTags>
+        <title>Ken Tauchi Portfolio Front End Developer</title>
+        <meta
+          name="description"
+          content="This is a portfolio site featureing Ken Tauchi's work, background, and skills. "
+        />
+        <meta property="og:title" content="Ken Tauchi - Portfolio Website" />
+        <meta
+          property="og:site_name"
+          content="Ken Tauchi - Portfolio Website"
+        />
+        <meta property="og:image" content={logo} />
+      </MetaTags>
       <HeaderNav />
       <Header />
       <Contact />
