@@ -18,7 +18,7 @@ function App() {
       <HeaderNav />
       <Header />
       <Contact />
-      {/* <WelcomeText /> */}
+      <WelcomeText />
       <GitHubBar />
       <Works />
       <Abouts />
