@@ -1,13 +1,13 @@
 export const MyData = [
   {
-    title: "Ken",
+    title: "I am",
     desc:
-      "is a Frontend Developer, currently working for Langara College as a contract developer in Vancouver. He is attending the college as a student as well.",
+      "a Frontend Developer, currently working for Langara College as a contract developer in Vancouver. I am attending the college as a student as well.",
   },
   {
     title: "Soft Skills",
     desc:
-      "Strong communication skills gained from 4 years of experience in sales in both the automotive and online advertising industry. He is goal-oriented and flexible to adapt. He is clear, concise and efficient in communicating.",
+      "Strong communication skills gained from 4 years of experience in sales in both the construction machinery and online advertising industry. I am goal-oriented and flexible to adapt. He is clear, concise and efficient in communicating.",
   },
   {
     title: "Status Quo Breaking",
